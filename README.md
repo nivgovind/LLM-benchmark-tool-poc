@@ -102,6 +102,6 @@ generate the reports and visualization [4] for the results on streamlit applicat
 # Quickstart ref
 1. https://docs.streamlit.io/develop/tutorials/databases/aws-s3
 2. https://docs.streamlit.io/develop/tutorials/multipage
-
+3. https://docs.streamlit.io/develop/api-reference/charts/st.plotly_chart
 
 
