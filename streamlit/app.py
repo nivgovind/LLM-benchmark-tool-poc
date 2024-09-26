@@ -21,18 +21,11 @@ env_path = pathlib.Path('.') / '.env'
 
 load_dotenv(dotenv_path=env_path)
 
-openai.api_key = os.getenv('OPENAI_API_KEY')
+openai.api_key = st.secrets['OPENAI_API_KEY']
 
-# POSTGRES_USER = os.getenv('POSTGRES_USER')
-# POSTGRES_PASSWORD = os.getenv('POSTGRES_PASSWORD')
-# POSTGRES_HOST = os.getenv('POSTGRES_HOST')
-# POSTGRES_PORT = os.getenv('POSTGRES_PORT')
-# POSTGRES_DB = os.getenv('POSTGRES_DB')
-
-# DATABASE_URL = f"postgresql://{POSTGRES_USER}:{POSTGRES_PASSWORD}@{POSTGRES_HOST}:{POSTGRES_PORT}/{POSTGRES_DB}"
 session = boto3.Session(
-    aws_access_key_id = os.getenv('aws_access_key_id'),
-    aws_secret_access_key = os.getenv('aws_secret_access_key'),
+    aws_access_key_id = st.secrets['aws_access_key_id'],
+    aws_secret_access_key = st.secrets['aws_secret_access_key'],
     region_name='us-east-2'
 )
 
@@ -41,11 +34,11 @@ s3 = session.client('s3')
 
 
 
-driver = os.getenv('driver')
-server = os.getenv('server')
-database = os.getenv('database')
-username = os.getenv('username')
-password = os.getenv('password')
+driver = st.secrets['driver']
+server = st.secrets['server'
+database = st.secrets['database']
+username = st.secrets['username']
+password = st.secrets['password']
 connection_string = f'DRIVER={driver};SERVER={server};PORT=1433;DATABASE={database};UID={username};PWD={password}'
 # print(f'DRIVER={driver};SERVER={server};PORT=1433;DATABASE={database};UID={username};PWD={password}')
 # embed()
@@ -55,9 +48,9 @@ MAX_TOKENS = 30000
 
 # Initialize the S3 client using boto3
 # s3 = boto3.client('s3')
-bucket_name = os.getenv('bucket_name')
-s3_file_key = os.getenv('s3_file_key')
-s3_file_key_path = os.getenv('s3_file_key_path')
+bucket_name = st.secrets['bucket_name']
+s3_file_key = st.secrets['s3_file_key']
+s3_file_key_path = st.secrets['s3_file_key_path']
 
 conn = pyodbc.connect(connection_string)
 
