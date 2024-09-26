@@ -35,7 +35,7 @@ s3 = session.client('s3')
 
 
 driver = st.secrets['driver']
-server = st.secrets['server'
+server = st.secrets['server']
 database = st.secrets['database']
 username = st.secrets['username']
 password = st.secrets['password']
