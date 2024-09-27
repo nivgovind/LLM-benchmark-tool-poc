@@ -93,10 +93,11 @@ else:
         new_password = st.text_input("New Password", type='password')
 
         if st.button("Sign Up"):
-            if signup(new_username, new_password):
+            
+            if new_username and new_password and signup(new_username, new_password):
                 st.success("Account created successfully!")  # Show success
                 st.session_state.signup_mode = False  # Reset signup mode
                   # Rerun to go back to login
             else:
-                st.error("Username already exists. Please choose a different username.")
+                st.error("Login error! Please try again.")  # Show error
             
