@@ -1,8 +1,42 @@
 
 # Assignment1
+# About
+## Links
+1. [Diagrams](#diagrams)
+2. [Codelabs Document](https://docs.google.com/document/d/12x51PlTxUmD6F9uAui8ZyoWTlUt4VTFP3YCYAvrLZq4/edit?usp=sharing)
+3. Video of the submission (5 minutes)
+4. [Working app](https://partyyy.streamlit.app/)
 
-  
-  
+e. GitHub project
+
+## Diagrams
+
+### Architecture
+![arch](images/architecture.jpeg)
+
+### UI
+
+#### Login page
+![Login page](images/login.png)
+
+#### Sign up page
+![Sign up page](images/signup.png)
+
+#### User chat Interface
+![chat](images/chat.png)
+
+
+### Visualizations
+
+#### Response trend
+![vis1](images/vis1.png)
+
+#### Response distribution by difficulty level
+![vis2](images/vis2.png)
+
+#### Response distribution by difficulty level
+![vis3](images/vis3.png)
+
 
 # Setup instructions
 
@@ -76,40 +110,10 @@ poetry run streamlit run app.py
 
 ```
 
-
-
-# Ref
-
-
-# Deliverables
-
-1. GitHub Repo Link with
-# About
-
-## Architecture
-
-## UI 
-
-## Visualizations
-
-
-
-
-b. [Codelabs Document](https://docs.google.com/document/d/12x51PlTxUmD6F9uAui8ZyoWTlUt4VTFP3YCYAvrLZq4/edit?usp=sharing)
-
-c. Video of the submission (5 minutes)
-
-d. Link to working application
-
-e. GitHub project
-
-  
-
-2. Checklist
+# Declaration
 
 1. Required attestation and contribution declaration on the GitHub page:
 
-```
 
 WE ATTEST THAT WE HAVEN’T USED ANY OTHER STUDENTS’ WORK IN OUR
 
@@ -121,89 +125,15 @@ a. member1: 33%
 
 b. member2: 33%
 
-c. member3: 33%
+c. Nivedhithaa govindaraj: 33%
 
-```
 
-2. Make sure you do not push anything to your GitHub after submission date
+# References
 
-3. Create a Code lab document describing everything you did. In your GitHub you
-
-should have a readme.md files which would tell what all things are there in this
-
-GitHub repository.
-
-4. Keep your repository private until the deadlines. In case of any plagiarism cases
-
-both the teams which be equally held responsible
-
-  
-  
-
-### DO NOT PUSH TO THE MAIN BRANCH
-
-### Procedure to push code
-
-- (first time) create a branch with your name with "main" as base
-
-- (Every time) Pull code from main branch before making changes to your branch
-
-- (Every time) make changes
-
-- (Every time) commit the changes
-
-- (Every time) push the code to "your branch"
-
-- (Every time) Create a PR to main with the changes
-
-  
-
-# Detailed git instructions of above
-
-- `git checkout "name"`
-
-- [ ] Created "origin/deepak" for deepak
-
-- [ ] created "origin/aish" for aish
-
-- [ ] created "origin/niv" for niv
-
-- [ ] created "origin/backup" for backup
-
-- `git pull origin main`
-
-- ALWAYS run this BEFORE YOU START WORKING ON CHANGESSSS!!!
-
-- Note: Work on changes in your local system
-
-- `git add .`
-
-- `git commit -m "What changes desc"`
-
-- Note: Good practice is frequent commit so that if you fuck up, you can go back to your last save/commit
-
-- Resource: https://www.freecodecamp.org/news/git-reverting-to-previous-commit-how-to-revert-to-last-commit/
-
-- `git push origin <branch name>`
-
-- branch name is "deepak" for deepak
-
-- branch name is "aish" for aish
-
-- branch name is "niv" for niv
-
-  
-
-- Raise a PR to main and let me know :). We will merge once we talk through the changes
-
-- LETS GOOO!
-
-  
-
-# Quickstart ref
-
-1. https://docs.streamlit.io/develop/tutorials/databases/aws-s3
-
-2. https://docs.streamlit.io/develop/tutorials/multipage
-
-3. https://docs.streamlit.io/develop/api-reference/charts/st.plotly_chart
+1. https://docs.streamlit.io/develop
+    1. https://docs.streamlit.io/develop/tutorials/multipage
+    2. https://docs.streamlit.io/develop/api-reference/charts/st.plotly_chart
+    3. https://docs.streamlit.io/develop/tutorials/databases/aws-s3 
+2. https://learn.microsoft.com/en-us/azure/azure-sql/?view=azuresql
+3. https://boto3.amazonaws.com/v1/documentation/api/latest/guide/s3-examples.html
+4. https://github.com/openai/openai-python
