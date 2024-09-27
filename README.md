@@ -3,11 +3,10 @@
 # About
 ## Links
 1. [Diagrams](#diagrams)
-2. [Codelabs Document](https://docs.google.com/document/d/12x51PlTxUmD6F9uAui8ZyoWTlUt4VTFP3YCYAvrLZq4/edit?usp=sharing)
-3. Video of the submission (5 minutes)
-4. [Working app](https://partyyy.streamlit.app/)
-
-e. GitHub project
+2. [Codelabs Document](https://codelabs-preview.appspot.com/?file_id=12x51PlTxUmD6F9uAui8ZyoWTlUt4VTFP3YCYAvrLZq4)
+3. [Video of the submission](https://youtu.be/hQujEXRkhJw)
+4. [Working app](https://stagyyy.streamlit.app/)
+5. [Github URL](https://github.com/BigData-Fall2024-TeamA3/Assignment1/tree/main)
 
 ## Diagrams
 
@@ -112,19 +111,11 @@ poetry run streamlit run app.py
 
 # Declaration
 
-1. Required attestation and contribution declaration on the GitHub page:
-
-
-WE ATTEST THAT WE HAVEN’T USED ANY OTHER STUDENTS’ WORK IN OUR
-
-ASSIGNMENT AND ABIDE BY THE POLICIES LISTED IN THE STUDENT HANDBOOK
+WE ATTEST THAT WE HAVEN’T USED ANY OTHER STUDENTS’ WORK IN OUR ASSIGNMENT AND ABIDE BY THE POLICIES LISTED IN THE STUDENT HANDBOOK
 
 Contribution:
-
 a. member1: 33%
-
 b. member2: 33%
-
 c. Nivedhithaa govindaraj: 33%
 
 
@@ -137,3 +128,5 @@ c. Nivedhithaa govindaraj: 33%
 2. https://learn.microsoft.com/en-us/azure/azure-sql/?view=azuresql
 3. https://boto3.amazonaws.com/v1/documentation/api/latest/guide/s3-examples.html
 4. https://github.com/openai/openai-python
+5. https://docs.google.com/document/d/12x51PlTxUmD6F9uAui8ZyoWTlUt4VTFP3YCYAvrLZq4/edit?usp=sharing
+6. https://github.com/openai/openai-python/tree/main/examples
