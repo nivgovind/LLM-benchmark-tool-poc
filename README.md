@@ -129,6 +129,10 @@ poetry run streamlit run app.py
 ```
 # Engineering
 
+
+![Data Flow](df.jpg)
+
+
 The diagram describes the overview of the dataflow within the app. The frontend and the backend components are built on Streamlit.
 The validation dataset/metadata and relevant files are stored on the S3 bucket in a JSON file and are loaded for dropdown questions
 
