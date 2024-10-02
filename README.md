@@ -1,5 +1,5 @@
 
-# Assignment1
+# LLM benchmark tool poc
 
 ## Links
 1. [Diagrams](#diagrams)
